@@ -3,7 +3,7 @@ import React from 'react';
 import Btn from '../components/Btn';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 const Login = ({ navigation }) => {
-  const nav = () => navigation.navigate('Todo');
+  const nav = () => navigation.navigate('SubScreen',{screen: 'TodoDay'});
 
   return (
     <SafeAreaProvider>
