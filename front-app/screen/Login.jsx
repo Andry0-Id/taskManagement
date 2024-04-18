@@ -30,7 +30,7 @@ export default Login;
 const styles = StyleSheet.create({
   login: {
     flex: 1,
-    backgroundColor:"#DAE8FC"
+    backgroundColor:"#fff"
   },
   body: {
     flex: 8,

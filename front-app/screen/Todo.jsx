@@ -169,7 +169,6 @@ export default function Todo() {
           <ScrollView>
           {
             tasks.map(({ idTask, task, achievements }) => (
-              <>
                 <View key={idTask} style={styles.task}>
                   <FontAwesome
                     name={achievements ? 'check-circle' : 'circle-o'}
@@ -186,7 +185,6 @@ export default function Todo() {
                     size={30} 
                     color="#fff" />
                 </View>
-              </>
             ))
           }
           </ScrollView>
